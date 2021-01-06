@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(36, 39, 41);
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.box {
+  margin-top: 10rem;
+  border: 1px solid rgb(65, 77, 107);
+  padding: 2.5rem;
+  box-shadow: rgba(69, 135, 181, 0.1) 0px 25px 40px 0px;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+input {
+  background-color: rgb(44, 47, 48);
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px;
+  outline-color: initial;
+  border-color: rgb(222, 14, 0);
+  border: 1px solid #ff6f66;
+  font-size: 16px;
+  padding: 15px 0;
+  text-indent: 15px;
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.label-container {
+  padding: .5rem 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.label {
+  border-bottom: 1px dotted #70cf32;
+  font-family: 'AvenirNext',sans-serif;
+}
+
+.output {
+  text-align: center;
+  color: rgb(255, 159, 146);
+  margin: 0 1.5rem;
+  font-family: "AvenirNext",sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.times-symbol {
+  width: 220px;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 10px;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.max-inputs,
+.avg-inputs {
+  padding: 0 2rem;
+  text-align: center;
+  display: flex;
+}
+
+.bracket-left,
+.bracket-right {
+  border-color: rgb(65, 77, 107)!important;
+  border: 5px solid #e6e9f0;
+  width: 10px;
+  margin: 0 20px;
+}
+
+.bracket-left {
+  border-right-width: 0;
+}
+
+.bracket-right {
+  border-left-width: 0;
+}
+
+.minus-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.minus {
+  font-size: 2rem;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 1rem;
+}

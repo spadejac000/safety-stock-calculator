@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Safety Stock Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="input-container">
+        <div class="max-inputs">
+          <div class="bracket-left"></div>
+          <div>
+            <input class=".input" id="mdu" type="number" min="1" max="10000" onchange="result()">
+            <div class="label-container">
+              <span class="label">Maximum daily usage</span>
+            </div>
+            <span class="times-symbol">&#10005;</span>
+            <input class=".input" id="mlt" type="number" min="1" max="10000" onchange="result()">
+            <div class="label-container">
+              <span class="label">Maximum lead time</span>
+            </div>
+          </div>
+          <div class="bracket-right"></div>
+        </div>
+        <div class="minus-box">
+          <span class="minus">&#8722;</span>
+        </div>
+        <div class="avg-inputs">
+          <div class="bracket-left"></div>
+          <div>
+            <input class=".input" id="adu" type="number" min="1" max="10000" onchange="result()">
+            <div class="label-container">
+              <span class="label">Average daily usage</span>
+            </div>
+            <span class="times-symbol">&#10005;</span>
+            <input class=".input" id="alt" type="number" min="1" max="10000" onchange="result()">
+            <div class="label-container">
+              <span class="label">Average lead time</span>
+            </div>
+          </div>
+          <div class="bracket-right"></div>
+        </div>
+      </div>
+      <div class="output">
+        <span id="answer">Please provide valid inputs</span>
+      </div>
+      <div class="btn">
+        <button onclick="result()">Result</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
