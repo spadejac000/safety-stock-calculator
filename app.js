@@ -10,17 +10,4 @@ const result = () => {
   } else {
     document.getElementById('answer').innerHTML = output;
   }
-
-  const htmlValue = () => {
-    if(isNaN(output)) {
-      document.getElementById('answer').innerHTML = "Please provide valid inputs"
-    } else {
-      document.getElementById('answer').innerHTML = output;
-    }
-  }
-
-
-  inputs.forEach(input => {
-    input.addEventListener('change', htmlValue)
-  })
 }

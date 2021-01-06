@@ -13,14 +13,14 @@
         <div class="max-inputs">
           <div class="bracket-left"></div>
           <div>
-            <input class=".input" id="mdu" type="number" min="1" max="10000" onchange="result()">
+            <input class=".input" id="mdu" type="number" min="1" max="10000" onkeyup="result()">
             <div class="label-container">
-              <span class="label">Maximum daily usage</span>
+              <span class="label tooltip">Maximum daily usage<span class="tooltiptext">Maximum number of units of product you sell per day</span></span>
             </div>
             <span class="times-symbol">&#10005;</span>
-            <input class=".input" id="mlt" type="number" min="1" max="10000" onchange="result()">
+            <input class=".input" id="mlt" type="number" min="1" max="10000" onkeyup="result()">
             <div class="label-container">
-              <span class="label">Maximum lead time</span>
+              <span class="label tooltip">Maximum lead time<span class="tooltiptext">Longest lead time in days</span></span>
             </div>
           </div>
           <div class="bracket-right"></div>
@@ -31,14 +31,14 @@
         <div class="avg-inputs">
           <div class="bracket-left"></div>
           <div>
-            <input class=".input" id="adu" type="number" min="1" max="10000" onchange="result()">
+            <input class=".input" id="adu" type="number" min="1" max="10000" onkeyup="result()" value="0">
             <div class="label-container">
-              <span class="label">Average daily usage</span>
+              <span class="label tooltip">Average daily usage<span class="tooltiptext">Average number of units of product you sell per day</span></span>
             </div>
             <span class="times-symbol">&#10005;</span>
-            <input class=".input" id="alt" type="number" min="1" max="10000" onchange="result()">
+            <input class=".input" id="alt" type="number" min="1" max="10000" onkeyup="result()" value="0">
             <div class="label-container">
-              <span class="label">Average lead time</span>
+              <span class="label tooltip">Average lead time<span class="tooltiptext">Average lead time in days</span></span>
             </div>
           </div>
           <div class="bracket-right"></div>
@@ -46,9 +46,6 @@
       </div>
       <div class="output">
         <span id="answer">Please provide valid inputs</span>
-      </div>
-      <div class="btn">
-        <button onclick="result()">Result</button>
       </div>
     </div>
   </div>
