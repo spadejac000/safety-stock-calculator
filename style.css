@@ -4,12 +4,13 @@
 }
 
 .box {
+  background: #f5f6f9;
   margin-top: 10rem;
-  border: 1px solid #fe4a1d;
   padding: 2.5rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 40px 0px;
   width: 100%;
   font-family: 'Open Sans',Arial,sans-serif;
+  border-left: #fe4a1d solid 10px;
 }
 
 .input-container {
@@ -20,7 +21,7 @@
 
 input {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px;
-  outline-color: initial;
+  outline-color: #fe4a1d;
   font-size: 16px;
   padding: 15px 0;
   text-indent: 15px;
@@ -37,7 +38,7 @@ input {
 }
 
 .label {
-  border-bottom: 1px dotted #b0c705;
+  border-bottom: 1px dotted #fe4a1d;
   font-family: 'Open Sans',Arial,sans-serif;
   cursor: pointer;
 }
