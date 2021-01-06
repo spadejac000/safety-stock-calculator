@@ -8,6 +8,6 @@ const result = () => {
   if(isNaN(output)) {
     document.getElementById('answer').innerHTML = "Please provide valid inputs"
   } else {
-    document.getElementById('answer').innerHTML = output;
+    document.getElementById('answer').innerHTML = `Safety Stock = ${output}`;
   }
 }

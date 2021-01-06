@@ -7,7 +7,6 @@
   background: #f5f6f9;
   margin-top: 10rem;
   padding: 2.5rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 40px 0px;
   width: 100%;
   font-family: 'Open Sans',Arial,sans-serif;
   border-left: #fe4a1d solid 10px;
@@ -40,7 +39,7 @@ input {
 .label {
   border-bottom: 1px dotted #fe4a1d;
   font-family: 'Open Sans',Arial,sans-serif;
-  cursor: pointer;
+  cursor: help;
 }
 
 .output {
