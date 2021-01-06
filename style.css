@@ -9,6 +9,7 @@
   padding: 2.5rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 40px 0px;
   width: 100%;
+  font-family: 'Open Sans',Arial,sans-serif;
 }
 
 .input-container {
@@ -18,8 +19,6 @@
 }
 
 input {
-  /* background-color: rgb(44, 47, 48); */
-  /* color: rgb(255, 255, 255); */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px;
   outline-color: initial;
   font-size: 16px;
@@ -38,8 +37,8 @@ input {
 }
 
 .label {
-  border-bottom: 1px dotted #70cf32;
-  font-family: 'AvenirNext',sans-serif;
+  border-bottom: 1px dotted #b0c705;
+  font-family: 'Open Sans',Arial,sans-serif;
   cursor: pointer;
 }
 
@@ -47,7 +46,7 @@ input {
   text-align: center;
   color: #fe4a1d;
   margin: 0 1.5rem;
-  font-family: "AvenirNext",sans-serif;
+  font-family: 'Open Sans',Arial,sans-serif;
   font-weight: 800;
   font-size: 28px;
   line-height: 1;
